@@ -1,0 +1,31 @@
+.hidden{
+    display: none;
+}
+
+.main{
+    background-color: rgb(235, 167, 160);
+    padding: 250px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h3#time{
+    color: rgb(242, 228, 225);
+}
+
+div#motive{
+    color: rgb(148, 62, 62);
+    font-style: italic;
+    font-size: 13pt;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: 55pt;
+    text-shadow: 2px 2px 2px black;
+}
+
+ul#todolist{
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+.main{
+    background-color: rgb(235, 167, 160);
+    padding: 450px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.hidden{
+    display: none;
+}
+
+a{
+    text-decoration-line:none ;
+}
+
+a:visited{
+    color: rgb(141, 53, 53);
+}
