@@ -1,8 +1,15 @@
 {
+  type SuccessState = {
+    result: "success";
+  };
+  type NetworkErrorState = {
+    result: "fail";
+    reason: "offline" | "down" | "timeout";
+  };
+
+  type ResultState = SuccessState | NetworkErrorState;
   class NetworkClient {
-    tryConnect(): void {
-      throw new Error("no network");
-    }
+    tryConnect(): ResultState {}
   }
 
   class UserService {
