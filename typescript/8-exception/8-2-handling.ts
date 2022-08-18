@@ -20,7 +20,7 @@ class App {
       this.userService.login();
     } catch (error) {
       // show dialog to user
-      //
+      // 캐치하는 error 는 type이 any이기 때문에 정말 필요할 때 말고는 사용 X 권장
     }
   }
 }
