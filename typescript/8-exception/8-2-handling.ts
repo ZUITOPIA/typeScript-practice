@@ -18,7 +18,7 @@ class App {
   run() {
     try {
       this.userService.login();
-    } catch {
+    } catch (error) {
       // show dialog to user
       //
     }
