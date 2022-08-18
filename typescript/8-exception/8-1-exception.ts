@@ -30,7 +30,7 @@ function run() {
     // 에러 try, catch와 관련없이 항상 실행
     // catch 안에서 문제가 생기거나 return 값이 있더라도 꼭 실행되어야 하는 것들 담기
     closeFile(fileName);
-    console.log("finally");
+    console.log("finally"); // 파일 닫고 잘 돌아가는지 확인용
   }
 }
 
