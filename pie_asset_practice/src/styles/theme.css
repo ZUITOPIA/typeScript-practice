@@ -1,0 +1,50 @@
+import { DefaultTheme } from "styled-components"
+
+export const theme: DefaultTheme = {
+  color: {
+    black: "#000000", // main color
+
+    // Brand_RED
+    red70: "#ff7d74",
+    red80: "#ff665e",
+    red90: "#ff4242",
+    red100: "#FF0600", // main color
+
+    // Grey Scale
+    light: "#ffffff",
+    gray20: "#fcfcfc",
+    gray30: "#f4f4f4",
+    gray40: "#eeeeee",
+    gray50: "#d3d3d3",
+    gray55: "#a2a2a2",
+    gray60: "#707070",
+    gray70: "#565656",
+    gray80: "#434343",
+    gray90: "#303030",
+    gray100: "#1a1a1a",
+    dark: "#080808",
+
+    // Semantic Color
+    blue10: "#D9FEFF",
+    blue20: "#9BFAFD",
+    blue30: "#1EF8FF",
+    blue40: "#00F1FF",
+    blue50: "#00EAFC",
+    blue60: "#00E4FC",
+    blue80: "#0EDEE4",
+    blue90: "#00BBCA",
+    blue100: "#00A6B0",
+
+    // sub color
+    information: "#FF1E87",
+    success: "#F7FE1E",
+    error: "#00FC00",
+    orange: "#FF961E",
+  },
+  shadow: {
+    float1: "",
+    float2: "",
+    basic: "",
+    line: "",
+  },
+}
