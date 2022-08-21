@@ -4,7 +4,7 @@
   };
   type NetworkErrorState = {
     result: "fail";
-    reason: "offline" | "down" | "timeout";
+    reason: "offline" | "down" | "timeout"; // error handling 쉽도록 실패 이유로 예상할 수 있는 상황 적어두기
   };
 
   type ResultState = SuccessState | NetworkErrorState;
