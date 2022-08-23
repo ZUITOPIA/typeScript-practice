@@ -32,4 +32,6 @@
   type ReadOnly<T> = {
     readonly [P in keyof T]?: T[P]; // readonly 는 추후에 성질 변경 불가능
   };
+
+  // 브랜치 ..
 }
