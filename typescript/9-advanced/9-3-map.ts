@@ -33,5 +33,22 @@
     readonly [P in keyof T]?: T[P]; // readonly 는 추후에 성질 변경 불가능
   };
 
-  // 브랜치 ..
+  type Nullable<T> = {
+    [P in keyof T]: T[P] | null;
+  };
+  const obj2: Nullable<Video> = {
+    title: "hi",
+    author: null,
+    description: null, // title, author, description 중 하나라도 빼먹으면 missing property 에러생김!
+  };
+
+  // typeScript 문서 예제
+  type Proxy<T> = {
+    get(): T;
+    set(value: T): void;
+  };
+
+  type Proxify<T> = {
+    [P in keyof T]: Proxy<T[P]>; // 한 단계 감싸는 역할... 무슨 말인지 이해 못 했다 ^>^?
+  };
 }
