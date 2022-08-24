@@ -1,0 +1,45 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Header {
+  background-color: antiquewhite;
+  width: 100%;
+  display: flex;
+  color: black;
+  padding: 40px;
+  font-weight: 600;
+  font-size: 20pt;
+}
+
+.ArticleList{
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.click{
+  border: 0;
+
+}
+
+.Show{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.Good{
+  font-size: 15px;
+}
+
+.PosterImage{
+  width: 450px;
+  height: 650px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
