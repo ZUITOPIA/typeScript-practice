@@ -17,7 +17,7 @@
     priority: "high",
   };
 
-  const updated = updateTodo(todo, { priority: "low" }); // todo의 priority를 low로 바꾸겠다
+  const updated = updateTodo(todo, { priority: "low" }); // todo의 priority를 low로 업데이트하겠다
   console.log(updated);
   // {
   // title: "learn TypeScript",
